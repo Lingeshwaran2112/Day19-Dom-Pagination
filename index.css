@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: slategray;
+}
+
+#Table-heading {
+    text-align: center;
+    color: black;
+}
+
+.table {
+    margin: 20px;
+    padding: 10px;
+}
+
+#myTable {
+    color:rgb(12, 12, 12);
+    font-size: 15px;
+}
+
+thead > tr > th {
+text-align: center;
+}
+
+#pagination {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.table-row {
+    background-color: rgba(199, 70, 70, 0.815);
+    color: white;
+    padding: 10px;
+}
+
+.table-row:hover {
+    background-color: rgba(34, 33, 33, 0.603);
+}
